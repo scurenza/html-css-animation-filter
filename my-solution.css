@@ -36,4 +36,28 @@
 }
 
 /* ESERCIZIO 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+/* ESERCIZIO 7 */
+.ex-7-img:hover{
+    filter: grayscale(0.5);
+    filter: sepia(0.5);
+}
+
+/* ESERCIZIO 8 */
+.ex-8-img:hover{
+    filter: grayscale(0.8);
+    filter: sepia(0.8);
+    border-radius: 20px;
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img:hover{
+    filter: grayscale(0.8);
+    filter: sepia(0.8);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
 
