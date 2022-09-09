@@ -61,3 +61,30 @@
     transform: scale(1.5);
 }
 
+/* ESERCIZIO 10 */
+.ex-10-icon{
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    0% {transform: rotate(1turn);}
+}
+
+/* ESERCIZIO 11 */
+.ex-11-icon:hover{
+    animation-name: semi-rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes semi-rotate{
+    0% {transform: rotate(0);}
+    25% {transform: rotate(.25turn);}
+    50% {transform: rotate(.5turn);}
+    75% {transform: rotate(.75turn);}
+    90% {transform: rotate(.9turn);}
+    100% {transform: rotate(0);}
+}
