@@ -7,22 +7,31 @@
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: all 3s;
+
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: all 2s;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: opacity 2s;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+
+    transition: all 2s;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
